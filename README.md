@@ -1,5 +1,6 @@
 # BackgroundOpaqueView
-<img src = "https://user-images.githubusercontent.com/28864782/151702604-339afdb3-2b37-4841-b1fb-a4f81740a05a.mp4">
+![Uploading RPReplay_Final1643538959.gif…]()
+
 
 > 커스텀 팝업창 혹은 아래에서 위로 올라오는 바텀업 메뉴 뒤쪽에 사용되는 배경뷰와 관련한 코드입니다.
 
