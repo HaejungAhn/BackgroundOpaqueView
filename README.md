@@ -1,8 +1,9 @@
 # BackgroundOpaqueView
-![Uploading RPReplay_Final1643538959.gif…]()
+> 커스텀 팝업창 혹은 아래에서 위로 올라오는 바텀업 메뉴 뒤쪽에 사용되는 배경뷰와 관련한 코드입니다.  
+<img src="https://user-images.githubusercontent.com/28864782/151703727-2baec78c-7526-4a96-ba23-e495d6a7f078.gif" width="25%"/>
 
 
-> 커스텀 팝업창 혹은 아래에서 위로 올라오는 바텀업 메뉴 뒤쪽에 사용되는 배경뷰와 관련한 코드입니다.
+
 
 
 #### Features
@@ -19,19 +20,16 @@ let backView = BackgroundOpaqueView(useAutoLayout: true)
 - 활용 가능한 property
 ```Swift
 // BackgroundOpaqueView의 색상
-// setBackViewColor(backViewColor: UIColor, opacity: CGFloat) 메소드를 통해 value 변경
 private var backViewColor: UIColor = .black
     
 // BackgroundOpaqueView의 투명도
-// setBackViewColor(backViewColor: UIColor, opacity: CGFloat) 메소드를 통해 value 변경
 private var opacity: CGFloat = 0.7
     
 // BackgroundOpaqueView의 show / hide animation의 duration
-// setAnimationDuration(duration: CGFloat) 메소드를 통해 value 변경
 private var animationDuration: CGFloat = 0.2
 ```
 
-- IB를 통한 생성 미지원
+- IB를 통한 생성 미지원  
 
 
 
