@@ -6,8 +6,8 @@
 
 
 
-#### Features
-- autoLayout 혹은 frame을 직접 지정하여 ```BackgroundOpaqueView```의 사이즈 조정 가능
+## Features
+- autoLayout 혹은 frame을 지정하여 ```BackgroundOpaqueView```의 사이즈 조정 가능
 ```Swift
 // UIScreen.main.bounds에 맞게 사이즈 조정됨
 let backView = BackgroundOpaqueView(useAutoLayout: false)
@@ -33,7 +33,7 @@ private var animationDuration: CGFloat = 0.2
 
 
 
-#### Usage
+## Usage
 1. 팝업창 혹은 바텀업 메뉴와 관련된 ViewController 생성
 2. Auto layout을 사용할지 말지 결정 후 ```BackgroundOpaqueView``` 인스턴스 생성
 3. 생성한 인스턴스를 view의 0번째 subview로 add
